@@ -8,6 +8,16 @@ public class Assignment1 {
 		String s2="111";
 		String s3="145";
 		//find the biggest number
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
