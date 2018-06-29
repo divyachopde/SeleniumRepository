@@ -1,7 +1,11 @@
-package Session23June;
+package Session23June.BMI;
 
 public class BMI {
-	double value;
+	private double value;
+
+	public double getValue() {
+		return value;
+	}
 
 	BMI(double value) {
 

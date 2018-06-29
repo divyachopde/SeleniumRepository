@@ -1,4 +1,4 @@
-package Session23June;
+package Session23June.BMI;
 
 public class BMIMain {
 	
@@ -7,8 +7,9 @@ public class BMIMain {
 		b2.h =60.2;
 		b2.w =15.5;
 		
-		BMI bmi = b2.bmiCal();
-		System.out.println(bmi.value);
+		BMI bmi = b2.bmiCal();//??
+		
+		System.out.println(bmi.getValue());
 		System.out.println(bmi.category());
 		
 		

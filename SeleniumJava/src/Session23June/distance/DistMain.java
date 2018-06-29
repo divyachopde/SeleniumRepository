@@ -11,7 +11,7 @@ public class DistMain {
 		
 		
 		
-		System.out.println("Distance is :" + CalDist.Distance(p1, p2) );
+		System.out.println("Distance is :" + CalDist.Distance(p1, p2) );//??
 
 	}
 

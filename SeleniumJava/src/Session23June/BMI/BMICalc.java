@@ -1,4 +1,4 @@
-package Session23June;
+package Session23June.BMI;
 
 public class BMICalc {
 	
