@@ -1,4 +1,4 @@
-package Session23June;
+package Session23June.Student;
 
 public class Student {
 	
@@ -11,6 +11,11 @@ public class Student {
 		this.rollno=rollno;
 		
 		
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", rollno=" + rollno + "]";
 	}
 
 }

@@ -1,18 +1,39 @@
 package Session29June;
 
 public class Private {
+
+	private int a;
+	private int b;
 	
-	private int x;
-	
-	private void method() {
-		
-		System.out.println("private");
+	public int getB() {
+		return b;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+
+	public void setA(int a) {
+		this.a=a;
 	}
 	
-	public void setA(int x) {
-		
-		this.x=x;
+	public int getA() {
+		return this.a;
 	}
+
+	private void m1() {
+		System.out.println("Inside private method m1");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Private p = new Private();
+		p.m1();
+		p.a = 9;
+
+	}
+
+}
 	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -22,4 +43,3 @@ public class Private {
 	}
 */
 
-}
