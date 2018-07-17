@@ -6,9 +6,9 @@ public class Name {
 	private String middleName;
 	private String lastName;
 
-	Name(String name) {
+	Name(String fullName) {
 
-		String[] nameParts = name.split(" ");
+		String[] nameParts = fullName.split(" ");
 
 		if (nameParts.length == 3) {
 
