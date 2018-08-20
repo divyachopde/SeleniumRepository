@@ -2,9 +2,9 @@ package Session29July;
 
 abstract class Triangle implements Shape{
 	
-	int arm1;
-	int arm2;
-	int arm3;
+	double arm1;
+	double arm2;
+	double arm3;
 	
 	public abstract double area();
 	
