@@ -2,25 +2,29 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17127" started-at="2018-08-18T05:27:55Z" finished-at="2018-08-18T05:28:12Z">
+  <suite name="Default suite" duration-ms="13477" started-at="2018-09-23T05:45:06Z" finished-at="2018-09-23T05:45:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17127" started-at="2018-08-18T05:27:55Z" finished-at="2018-08-18T05:28:12Z">
-      <class name="Session18aug.Flipkart">
-        <test-method status="FAIL" signature="TestMoto()[pri:0, instance:Session18aug.Flipkart@2a2d45ba]" name="TestMoto" duration-ms="17065" started-at="2018-08-18T05:27:55Z" finished-at="2018-08-18T05:28:12Z">
+    <test name="Default test" duration-ms="13477" started-at="2018-09-23T05:45:06Z" finished-at="2018-09-23T05:45:19Z">
+      <class name="Session23Sept.SignUpTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Session23Sept.SignUpTests@39aeed2f]" name="setup" is-config="true" duration-ms="11140" started-at="2018-09-23T05:45:06Z" finished-at="2018-09-23T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testPasswordError()[pri:0, instance:Session23Sept.SignUpTests@39aeed2f]" name="testPasswordError" duration-ms="2259" started-at="2018-09-23T05:45:17Z" finished-at="2018-09-23T05:45:19Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Moto] but found [M]]]>
+              <![CDATA[expected [This is required.rt] but found [This is required.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Moto] but found [M]
+              <![CDATA[java.lang.AssertionError: expected [This is required.rt] but found [This is required.]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at Session18aug.Flipkart.TestMoto(Flipkart.java:49)
+at Session23Sept.SignUpTests.testPasswordError(SignUpTests.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -51,8 +55,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMoto -->
-      </class> <!-- Session18aug.Flipkart -->
+        </test-method> <!-- testPasswordError -->
+      </class> <!-- Session23Sept.SignUpTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
